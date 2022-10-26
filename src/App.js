@@ -5,7 +5,6 @@ import MovieCard from './MovieCard';
 
 const API_URL='http://www.omdbapi.com?apikey=f3cbff92';
 
-const movie1={Title: 'The Batman', Year: '2022', imdbID: 'tt1877830', Type: 'movie', Poster: "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg",Title: "The Batman",Type:"movie",Year: "2022",imdbID: "tt1877830"}
 const App=() =>{
 
     const [movies,setMovies]=useState([]);
